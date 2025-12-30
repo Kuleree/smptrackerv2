@@ -4,6 +4,6 @@ services:
     build: .
     image: ghcr.io/clrxbl/blockgametracker
     environment:
-      CONFIG_FILE: "/config/servers.yaml"
+      CONFIG_FILE: "kustomize/base/config/servers.yaml
     volumes:
       - /artifacts/gs8ksoo8oosssk04gkcsccos/deploy/config/servers.yaml
