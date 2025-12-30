@@ -6,4 +6,4 @@ services:
     environment:
       CONFIG_FILE: "/config/servers.yaml"
     volumes:
-      - ./deploy/config:/config
+      - /config/servers.yaml
