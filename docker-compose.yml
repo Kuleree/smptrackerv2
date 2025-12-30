@@ -6,4 +6,4 @@ services:
     environment:
       CONFIG_FILE: "/config/servers.yaml"
     volumes:
-      - /config/servers.yaml
+      - /artifacts/gs8ksoo8oosssk04gkcsccos/deploy/config/servers.yaml
